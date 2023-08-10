@@ -21,8 +21,7 @@ const userSchema = new Schema(
       enum: subList,
       default: "starter",
     },
-<<<<<<< HEAD
-=======
+
     verify: {
       type: Boolean,
       default: false,
@@ -32,7 +31,7 @@ const userSchema = new Schema(
       required: [true, "Verify token is required"],
     },
     avatarURL: String,
->>>>>>> c4d81f9 (done all base dz6)
+
     token: String,
   },
   { versionKey: false, timestamps: true }
